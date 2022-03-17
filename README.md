@@ -1,6 +1,18 @@
 # primeiroprojetospringbatch
 https://www.udemy.com/course/curso-para-desenvolvimento-de-jobs-com-spring-batch/  
 
+## Artigos  
+
+The Domain Language of Batch  
+https://docs.spring.io/spring-batch/docs/current/reference/html/domain.html#domainLanguageOfBatch  
+
+Desenvolvimento com Spring Batch — Jobs  
+https://giuliana-bezerra.medium.com/desenvolvimento-com-spring-batch-jobs-b4363dd6c676  
+
+Desenvolvimento com Spring Batch — Steps  
+https://giuliana-bezerra.medium.com/desenvolvimento-com-spring-batch-steps-4d42af2696ec  
+
+
 ## Job Repository  
 É a base de dados onde são armazenados os metadados do spring batch,   
 através dele conseguimos várias informações sobre a execução dos jobs.  
