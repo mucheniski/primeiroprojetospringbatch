@@ -1,0 +1,14 @@
+2022-03-17 17:46:50,330 INFO c.e.p.PrimeiroprojetospringbatchApplication [main] Starting PrimeiroprojetospringbatchApplication using Java 11.0.14 on BRPC014081 with PID 18144 (C:\ws-developer\spring-java\primeiroprojetospringbatch\target\classes started by domk in C:\ws-developer\spring-java\primeiroprojetospringbatch)
+2022-03-17 17:46:50,334 INFO c.e.p.PrimeiroprojetospringbatchApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-03-17 17:46:50,958 INFO o.s.c.a.ConfigurationClassEnhancer [main] @Bean method PropertiesConfig.configurarPropriedades is non-static and returns an object assignable to Spring's BeanFactoryPostProcessor interface. This will result in a failure to process annotations such as @Autowired, @Resource and @PostConstruct within the method's declaring @Configuration class. Add the 'static' modifier to this method to avoid these container lifecycle issues; see @Bean javadoc for complete details.
+2022-03-17 17:46:51,185 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Starting...
+2022-03-17 17:46:51,958 INFO c.z.h.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-03-17 17:46:52,127 INFO o.s.b.c.r.s.JobRepositoryFactoryBean [main] No database type set, using meta data indicating: MYSQL
+2022-03-17 17:46:52,416 INFO o.s.b.c.l.s.SimpleJobLauncher [main] No TaskExecutor has been set, defaulting to synchronous executor.
+2022-03-17 17:46:52,575 INFO c.e.p.PrimeiroprojetospringbatchApplication [main] Started PrimeiroprojetospringbatchApplication in 3.181 seconds (JVM running for 4.071)
+2022-03-17 17:46:52,772 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] launched with the following parameters: [{run.id=11}]
+2022-03-17 17:46:52,837 INFO o.s.b.c.j.SimpleStepHandler [main] Executing step: [imprimeOlaStep]
+2022-03-17 17:46:52,890 INFO o.s.b.c.s.AbstractStep [main] Step: [imprimeOlaStep] executed in 52ms
+2022-03-17 17:46:52,940 INFO o.s.b.c.l.s.SimpleJobLauncher [main] Job: [SimpleJob: [name=imprimeOlaJob]] completed with the following parameters: [{run.id=11}] and the following status: [COMPLETED] in 129ms
+2022-03-17 17:46:52,950 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown initiated...
+2022-03-17 17:46:52,982 INFO c.z.h.HikariDataSource [SpringApplicationShutdownHook] HikariPool-1 - Shutdown completed.
