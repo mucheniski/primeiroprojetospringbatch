@@ -12,4 +12,9 @@ BATCH_JOB_EXECUTION_PARAMS - Apresenta os parametros de execução do job.
 BATCH_STEP_EXECUTION - Verificar quais steps executaram.  
 BATCH_STEP_EXECUTION_CONTEXT - Informações do contexto do step.  
 
+o chunk(10) define que são executados 10 registros por vez, para cada chunk é feita uma transação na base  
+de dados, o ideal é pensar sempre na performance da base, pois neste caso os 10 registros ficarão em memória.  
+na tabela BATCH_STEP_EXECUTION.COMMIT_COUNT mostra a contagem de quantas transações foram comitadas.  
+
+
 
