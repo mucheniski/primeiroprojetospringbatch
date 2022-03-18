@@ -1,0 +1,6 @@
+C,Bruna,Mucheniski,30,bruna@teste.com
+T,t1c1,coleira,90.00
+T,t2c1,casinha,350.00
+C,Diego,Mucheniski,35,diego@teste.com
+T,t1c2,monitor,1500.00
+T,t2c2,cerveja,35.00
