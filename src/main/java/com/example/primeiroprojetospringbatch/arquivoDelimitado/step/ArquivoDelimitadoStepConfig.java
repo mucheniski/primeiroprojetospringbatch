@@ -1,4 +1,4 @@
-package com.example.primeiroprojetospringbatch.step;
+package com.example.primeiroprojetospringbatch.arquivoDelimitado.step;
 
 import com.example.primeiroprojetospringbatch.domain.Cliente;
 import org.springframework.batch.core.Step;

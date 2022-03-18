@@ -1,4 +1,4 @@
-package com.example.primeiroprojetospringbatch.reader;
+package com.example.primeiroprojetospringbatch.arquivoDelimitado.reader;
 
 import com.example.primeiroprojetospringbatch.domain.Cliente;
 import org.springframework.batch.item.file.FlatFileItemReader;

@@ -1,4 +1,4 @@
-package com.example.primeiroprojetospringbatch.reader;
+package com.example.primeiroprojetospringbatch.arquivolargurafixa.reader;
 
 import com.example.primeiroprojetospringbatch.domain.Cliente;
 import org.springframework.batch.item.file.FlatFileItemReader;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.core.io.FileSystemResource;
 
 @Configuration
-public class ArquivoLeituraFixaReaderConfig {
+public class ArquivoLarguraFixaReaderConfig {
 
     @Bean
     public FlatFileItemReader<Cliente> arquivoLarguraFixaReader() {
