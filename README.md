@@ -32,3 +32,5 @@ O restar de jobs com falha só se recupera a partir de chuncks que foram conclu�
 é importante pensar na quantidade de chunks para processamento, e não deixar um valor muito alto, pois caso aconteca  
 uma falha no job, somente será retomado até o último concluído.  
 
+## Leitor de Json  
+https://docs.spring.io/spring-batch/docs/current/reference/html/index-single.html#JsonItemReader  
