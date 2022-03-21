@@ -1,4 +1,4 @@
-package com.example.primeiroprojetospringbatch.arquivomultiplosformatos.reader;
+package com.example.primeiroprojetospringbatch.multiplosformatosvariosarquivos.reader;
 
 import com.example.primeiroprojetospringbatch.domain.Cliente;
 import com.example.primeiroprojetospringbatch.domain.Transacao;
@@ -15,10 +15,10 @@ import java.util.Map;
 
 @SuppressWarnings("ALL")
 @Configuration
-public class ClienteTransacaoLineMapper {
+public class VariosClientesTransacaoLineMapper {
 
     @Bean
-    public PatternMatchingCompositeLineMapper lineMapper() {
+    public PatternMatchingCompositeLineMapper variosArquivosLineMapper() {
         PatternMatchingCompositeLineMapper lineMapper = new PatternMatchingCompositeLineMapper<>();
         lineMapper.setTokenizers(tokenizers()); // Pega as linhas e divide em palavas
         lineMapper.setFieldSetMappers(fieldSetMappers()); // Pega as palavras e mapeia para objetos de domínio
