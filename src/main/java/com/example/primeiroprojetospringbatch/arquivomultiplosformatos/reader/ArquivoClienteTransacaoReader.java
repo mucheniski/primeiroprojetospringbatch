@@ -13,12 +13,17 @@ import org.springframework.batch.item.UnexpectedInputException;
 public class ArquivoClienteTransacaoReader implements ItemStreamReader<Cliente> {
 
     private Object objetoAtual;
+    private ItemStreamReader<Object> leitorObjetoDelegate;
+
+    public ArquivoClienteTransacaoReader(ItemStreamReader<Object> leitorObjetoDelegate) {
+        this.leitorObjetoDelegate = leitorObjetoDelegate;
+    }
 
     @Override
     public Cliente read() throws Exception, UnexpectedInputException, ParseException, NonTransientResourceException {
 
         if (objetoAtual == null) {
-            objetoAtual = // ler o objeto
+            objetoAtual = leitorObjetoDelegate.read();
         }
 
         Cliente cliente = (Cliente) objetoAtual;
@@ -33,25 +38,23 @@ public class ArquivoClienteTransacaoReader implements ItemStreamReader<Cliente> 
 
     }
 
-    private Object verProximoItem() {
-
-        objetoAtual = // ler proximo objeto
+    private Object verProximoItem() throws Exception {
+        objetoAtual = leitorObjetoDelegate.read();
         return objetoAtual;
-
     }
 
     @Override
     public void open(ExecutionContext executionContext) throws ItemStreamException {
-
+        leitorObjetoDelegate.open(executionContext);
     }
 
     @Override
     public void update(ExecutionContext executionContext) throws ItemStreamException {
-
+        leitorObjetoDelegate.update(executionContext);
     }
 
     @Override
     public void close() throws ItemStreamException {
-
+        leitorObjetoDelegate.close();
     }
 }
