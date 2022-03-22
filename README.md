@@ -34,3 +34,13 @@ uma falha no job, somente será retomado até o último concluído.
 
 ## Leitor de Json  
 https://docs.spring.io/spring-batch/docs/current/reference/html/index-single.html#JsonItemReader  
+
+## Reforço leitores  
+Para reforçar o aprendizado a respeito da leitura em banco de dados com Spring Batch, sugiro o seguinte artigo para leitura:  
+https://docs.spring.io/spring-batch/docs/current/reference/html/readersAndWriters.html#database  
+
+Você também pode customizar um leitor. O exemplo abaixo mostra como criar um leitor que acessa um serviço REST para carregar dados:  
+https://www.petrikainulainen.net/programming/spring-framework/spring-batch-tutorial-reading-information-from-a-rest-api/  
+
+E se você quiser trabalhar com uma infraestrutura de filas assíncronas, também dá usar um componente específico do Spring Batch:  
+https://github.com/spring-tips/kafka-and-spring-batch/blob/master/src/main/java/com/example/bk/consumer/ConsumerApplication.java  
