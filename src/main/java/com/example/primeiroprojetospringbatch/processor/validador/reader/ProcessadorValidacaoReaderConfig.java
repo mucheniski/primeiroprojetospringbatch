@@ -1,4 +1,4 @@
-package com.example.primeiroprojetospringbatch.processor.reader;
+package com.example.primeiroprojetospringbatch.processor.validador.reader;
 
 import com.example.primeiroprojetospringbatch.domain.ClienteValidation;
 import org.springframework.batch.core.configuration.annotation.StepScope;

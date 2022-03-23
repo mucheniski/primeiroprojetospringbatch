@@ -1,4 +1,4 @@
-package com.example.primeiroprojetospringbatch.processor.processor;
+package com.example.primeiroprojetospringbatch.processor.validador.processor;
 
 import com.example.primeiroprojetospringbatch.domain.ClienteValidation;
 import org.springframework.batch.item.ItemProcessor;

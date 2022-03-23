@@ -1,4 +1,4 @@
-package com.example.primeiroprojetospringbatch.processor.job;
+package com.example.primeiroprojetospringbatch.processor.validador.job;
 
 import org.springframework.batch.core.Job;
 import org.springframework.batch.core.Step;

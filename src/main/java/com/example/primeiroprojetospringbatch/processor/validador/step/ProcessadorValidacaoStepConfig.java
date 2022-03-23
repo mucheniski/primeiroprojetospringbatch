@@ -1,4 +1,4 @@
-package com.example.primeiroprojetospringbatch.processor.step;
+package com.example.primeiroprojetospringbatch.processor.validador.step;
 
 import com.example.primeiroprojetospringbatch.domain.ClienteValidation;
 import org.springframework.batch.core.Step;
