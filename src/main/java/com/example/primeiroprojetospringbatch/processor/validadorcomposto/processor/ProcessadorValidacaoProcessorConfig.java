@@ -1,6 +1,6 @@
 package com.example.primeiroprojetospringbatch.processor.validadorcomposto.processor;
 
-import com.springbatch.processadorvalidacao.dominio.ClienteValidation;
+import com.example.primeiroprojetospringbatch.domain.ClienteValidation;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.batch.item.support.builder.CompositeItemProcessorBuilder;
 import org.springframework.batch.item.validator.BeanValidatingItemProcessor;

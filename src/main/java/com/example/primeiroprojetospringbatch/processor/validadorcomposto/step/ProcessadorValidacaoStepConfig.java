@@ -1,6 +1,6 @@
 package com.example.primeiroprojetospringbatch.processor.validadorcomposto.step;
 
-import com.springbatch.processadorvalidacao.dominio.ClienteValidation;
+import com.example.primeiroprojetospringbatch.domain.ClienteValidation;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.item.ItemProcessor;
