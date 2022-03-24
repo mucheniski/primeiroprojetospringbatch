@@ -44,3 +44,15 @@ https://www.petrikainulainen.net/programming/spring-framework/spring-batch-tutor
 
 E se você quiser trabalhar com uma infraestrutura de filas assíncronas, também dá usar um componente específico do Spring Batch:  
 https://github.com/spring-tips/kafka-and-spring-batch/blob/master/src/main/java/com/example/bk/consumer/ConsumerApplication.java  
+
+## ItemProcessor  
+Como leitura, sugiro o seguinte artigo:  
+https://docs.spring.io/spring-batch/docs/current/reference/html/readersAndWriters.html#itemProcessor  
+
+Existem outras implementações de ItemProcessor no Spring Batch que não vimos nessa seção.  
+Elas podem ser encontradas na documentação da interface.   
+https://docs.spring.io/spring-batch/docs/current/api/org/springframework/batch/item/ItemProcessor.html  
+Um excelente exercício para você praticar é criar um job e utilizar alguma dessas implementações (e.g. FunctionItemProcessor).   
+https://docs.spring.io/spring-batch/docs/current/api/org/springframework/batch/item/function/FunctionItemProcessor.html  
+Pode parecer desafiador, mas esses componentes são bastante simples de utilizar.   
+Garanto que você irá tirar de letra e se divertir no processo! 

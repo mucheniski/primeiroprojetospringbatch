@@ -1,6 +1,6 @@
 package com.example.primeiroprojetospringbatch.processors.classificador.processor;
 
-import com.springbatch.processadorclassifier.dominio.Cliente;
+import com.example.primeiroprojetospringbatch.domain.Cliente;
 import org.springframework.batch.item.ItemProcessor;
 import org.springframework.batch.item.support.ClassifierCompositeItemProcessor;
 import org.springframework.batch.item.support.builder.ClassifierCompositeItemProcessorBuilder;

@@ -1,5 +1,6 @@
 package com.example.primeiroprojetospringbatch.readers.jdbccursorreader.step;
 
+import com.example.primeiroprojetospringbatch.domain.Cliente;
 import org.springframework.batch.core.Step;
 import org.springframework.batch.core.configuration.annotation.StepBuilderFactory;
 import org.springframework.batch.item.ItemReader;
@@ -8,7 +9,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
-import com.springbatch.jdbccursorreader.dominio.Cliente;
 
 @Configuration
 public class JdbcCursorReaderStepConfig {
