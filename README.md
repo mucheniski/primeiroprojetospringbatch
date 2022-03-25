@@ -56,3 +56,11 @@ Um excelente exercício para você praticar é criar um job e utilizar alguma de
 https://docs.spring.io/spring-batch/docs/current/api/org/springframework/batch/item/function/FunctionItemProcessor.html  
 Pode parecer desafiador, mas esses componentes são bastante simples de utilizar.   
 Garanto que você irá tirar de letra e se divertir no processo! 
+
+## Escritores de banco de dados  
+Para reforçar o aprendizado a respeito da escrita em banco de dados com Spring Batch, você pode consultar as implementações existentes de escritores de banco do Spring Batch:  
+https://docs.spring.io/spring-batch/docs/current/reference/html/readersAndWriters.html#databaseWriters  
+E que tal se aventurar implementando uma delas? Você pode modificar um dos projetos que vimos nessa seção para utilizar o HibernateItemWriter, por exemplo. Não tenha medo de tentar, errar faz parte do aprendizado!  
+https://docs.spring.io/spring-batch/docs/current/reference/html/readersAndWriters.html#hibernateItemWriter  
+
+
