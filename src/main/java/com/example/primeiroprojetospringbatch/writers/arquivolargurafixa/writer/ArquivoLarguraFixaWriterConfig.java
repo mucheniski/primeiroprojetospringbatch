@@ -1,14 +1,10 @@
 package com.example.primeiroprojetospringbatch.writers.arquivolargurafixa.writer;
 
-import org.springframework.batch.item.file.FlatFileItemReader;
+import com.example.primeiroprojetospringbatch.writers.arquivolargurafixa.dominio.Cliente;
 import org.springframework.batch.item.file.FlatFileItemWriter;
-import org.springframework.batch.item.file.builder.FlatFileItemReaderBuilder;
 import org.springframework.batch.item.file.builder.FlatFileItemWriterBuilder;
-import org.springframework.batch.item.file.transform.Range;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-
-import com.springbatch.arquivolargurafixa.dominio.Cliente;
 import org.springframework.core.io.FileSystemResource;
 
 @Configuration
