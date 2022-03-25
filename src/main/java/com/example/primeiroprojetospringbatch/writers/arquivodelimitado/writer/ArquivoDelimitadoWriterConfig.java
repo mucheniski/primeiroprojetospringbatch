@@ -1,6 +1,6 @@
 package com.example.primeiroprojetospringbatch.writers.arquivodelimitado.writer;
 
-import com.springbatch.arquivodelimitado.dominio.Cliente;
+import com.example.primeiroprojetospringbatch.writers.arquivodelimitado.dominio.Cliente;
 import org.springframework.batch.item.file.FlatFileItemWriter;
 import org.springframework.batch.item.file.builder.FlatFileItemWriterBuilder;
 import org.springframework.context.annotation.Bean;
@@ -19,6 +19,7 @@ public class ArquivoDelimitadoWriterConfig {
 				.name("arquivoDelimitadoWriter")
 				.resource(resource)
 				.delimited()
+				.delimiter(";") // Pode ser colocado qualquer delimitador para o arquivo de saída
 				.names("nome", "sobrenome", "idade", "email")
 				.build();
 
