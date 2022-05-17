@@ -17,10 +17,10 @@ public class ArquivoLarguraFixaReaderConfig {
         /*
         * Os valores dos ranges são retirados do arquivo cleintesLarguraFixa.txt
         * */
-        Range nome = new Range(1,11);
-        Range sobrenome = new Range(12,26);
-        Range idade = new Range(27, 30);
-        Range email = new Range(31, 45);
+        Range nome = new Range(1,11);  // Contando com o 1 mais 11 caracteres...
+        Range sobrenome = new Range(12,26); // contando com o 12 mais 15 caracteres
+        Range idade = new Range(27, 30); // Contando com o 27 mais 4 caracteres
+        Range email = new Range(31, 45); // Contando com o 31 mais 14 caracteres
         Range[] colunas = new Range[]{nome, sobrenome, idade, email};
 
         FileSystemResource pathLocation = new FileSystemResource("C:\\ws-developer\\spring-java\\primeiroprojetospringbatch\\externalizada\\clientesLarguraFixa.txt");
